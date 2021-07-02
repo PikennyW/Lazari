@@ -58,7 +58,7 @@ if (!opts['test']) setInterval(() => {
     conn.logger.info('Done saving database!')
     lastJSON = JSON.stringify(global.DATABASE.data)
   }
-}, 60 * 1000) // Save every minute
+}, 90 * 1000) // Save every minute
 
 
 
