@@ -44,6 +44,7 @@ if (opts['server']) {
 }
 global.conn = new WAConnection()
 let authFile = `${opts._[0] || 'session'}.data.json`
+conn.version = [2, 2119, 6]
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
 if (opts['debug']) conn.logger.level = 'debug'
