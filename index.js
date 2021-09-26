@@ -9,7 +9,7 @@ CFonts.say('Lazari', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'Pikenny White'`, {
+CFonts.say(`'PikennyW'`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
